@@ -54,7 +54,7 @@ Solution: Leveraged Tailwind CSS utilities like max-w-2xl and min-h-screen for r
 
 Media
 
-Images: rocket.png and rocket2.png (rocket images) and stars.png (stars background) sourced from [e.g., pexels.com or self-designed].
+Images: download(3).jpeg and rockt2.jpeg (rocket images) and download.jpeg (stars background) sourced from Google .
 All media files are included in the repository.
 
 Project Links
