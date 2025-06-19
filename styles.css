@@ -1,0 +1,48 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    position: relative;
+}
+
+h1, h2, p, li {
+    direction: rtl;
+}
+
+/* نجوم تلمع في الخلفية */
+#stars {
+    background: transparent;
+    overflow: hidden;
+}
+
+#stars::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('download\ \(3\).jpeg') repeat;
+    animation: twinkle 5s infinite;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.8; }
+    50% { opacity: 0.4; }
+}
+
+/* أنيميشن الصاروخ */
+.rocket-animation {
+    animation: rocket-move 3s infinite ease-in-out;
+}
+
+@keyframes rocket-move {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
