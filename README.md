@@ -59,8 +59,8 @@ All media files are included in the repository.
 
 Project Links
 
-Repository: 
-Hosted Website: [Insert GitHub Pages link here]
+Repository: ema1146.github.io
+Hosted Website:https://ema1146.github.io/dreamjob/
 
 Notes
 
